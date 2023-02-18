@@ -106,7 +106,7 @@ def remove_sentence():
 
     if request.method == 'POST':
         string = request.form.get('string')
-        word = request.form.get('remove-sentence')
+        sentence = request.form.get('remove-sentence')
 
         return render_template('result.html')
 
@@ -131,6 +131,6 @@ def remove_newline():
         return render_template('result.html')
 
 
-
+# Batuhan Aydın
 if __name__ == '__main__':
     app.run(debug=True)
