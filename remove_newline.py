@@ -8,7 +8,3 @@ class RemoveNewLine:
                 result += i
         return result
 
-# print(RemoveNewLine.remove_new_line('''Merhaba
-# Ben
-# Batuhan
-# Aydın'''))

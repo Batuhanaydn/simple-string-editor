@@ -12,5 +12,3 @@ class RemoveSentence:
                 result += i
 
         return result
-
-print(RemoveSentence.remove_sentence('Merhaba. Ben batuhan aydın.', ' ben batuhan aydın'))

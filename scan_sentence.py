@@ -7,5 +7,3 @@ class ScanSentence:
             if i == sentence:
                 result += 1
         return result
-
-# print(ScanSentence.scan_sentence('ahmetali. ahmetveli. ahmetveli.', ' ahmetveli'))

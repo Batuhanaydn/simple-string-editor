@@ -7,5 +7,3 @@ class RemoveSpace:
             else:
                 result += i
         return result
-
-# print(RemoveSpace.remove_space('Merhaba ben batuhan aydın'))

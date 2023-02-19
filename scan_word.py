@@ -8,5 +8,3 @@ class ScanWord:
             if i == word:
                 result += 1
         return result
-
-print(ScanWord.scan_word('ahmet ali ayse, ayse', 'ayse'))

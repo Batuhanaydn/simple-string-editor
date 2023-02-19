@@ -10,4 +10,3 @@ class RemoveLetter:
                 else:
                     result += i
         return result
-print(RemoveLetter.remove_letter('ahmet mehmet', 'm'))

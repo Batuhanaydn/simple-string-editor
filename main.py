@@ -56,7 +56,6 @@ def most_word():
         result = Frequent.most_frequent_character(string)
         return render_template('result.html', result=result)
 
-# Find the number of a specific letter
 @app.route('/scan-letter')
 def scan_letter():
     if request.method == 'GET':

@@ -10,4 +10,3 @@ class RemoveWord:
             else:
                 result += i + " "
         return result
-# print(RemoveWord.remove_word('Ahmet mehmet ayse', 'ahmet'))

@@ -5,5 +5,3 @@ class ScanLetter:
             if i == letter:
                 result += 1
         return result
-
-# print(ScanLetter.scan_letter('aaaaaaadsajkdlka', 'a'))
